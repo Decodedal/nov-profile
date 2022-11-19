@@ -8,21 +8,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <script src="script.js" defer></script>
     <title>Dallas Portfolio</title>
 </head>
 <body>
     <div class="page-container">
         <div class="nav-container">
-            <a href="#about-anchor"><h2>About Me</h2></a>
+            <a class="web-nav" href="#about-anchor"><h2>About Me</h2></a>
             <h1>Dallas Palumbo : Web Developer</h1>
-            <a href="#projects-anchor"><h2>projects</h2></a>
+            <a class="web-nav" href="#projects-anchor"><h2>projects</h2></a>
+        
+        <ul class="menu">
+            <li><a class="menuItem" href="#">About Me</a></li>
+            <li><a class="menuItem" href="#">Projects</a></li>
+            <li><a class="menuItem" href="#">Contacts</a></li>
+            <li><a class="menuItem" href="#">show this</a></li>
+
+          </ul>
+          <button class="hamburger">
+            <!-- material icons https://material.io/resources/icons/ -->
+            <i  id= menu class="menuIcon material-icons">menu</i>
+            <i id="close" class="closeIcon material-icons">close</i>
+          </button>
         </div>
     <div class="hero-container">
         <div class="hero-picture">
             <img id="Dallas-pic" src="https://placekitten.com/g/400/400" alt="picture of dallas"/>
             <div class="skills">
-                <h3>Skills</h3>
+               <div class="tech-stack">
+                <h3>Tech Stack </h3>
                 <ul>
                     <li>Html</li>
                     <li>Css</li>
@@ -32,7 +48,20 @@
                     <li>Postgres SQL / sequelize</li>
                     <li>Mongo DB / Mongoose</li>
                     <li>Node.js</li>
+                    <li>Python</li>
                 </ul>
+                </div>
+                <div class="soft-skills">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Good Listener</li>
+                        <li>Patient/ Respectful</li>
+                        <li>Responsable</li>
+                        <li>Punctual</li>
+                        <li>Quick Learner</li>
+                        <li>Typing speed: 60wpm</li>
+                    </ul>
+                </div>
         </div>
         </div>
             <div class="about">
